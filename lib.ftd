@@ -2,6 +2,7 @@
 
 -- component page:
 children c:
+ftd.color-scheme color-scheme: $dark-flame-cs.main
 
 -- ftd.column:
 width: fill-container
