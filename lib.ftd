@@ -1,0 +1,74 @@
+-- import: fastn-community.github.io/dark-flame-cs
+
+-- component page:
+children c:
+
+-- ftd.column:
+width: fill-container
+
+-- ftd.column:
+width: fill-container
+children: $page.c
+
+-- end: ftd.column
+
+-- end: ftd.column
+
+-- end: page
+
+
+
+
+
+
+
+
+
+-- component navbar:
+caption title:
+ftd.image-src logo:
+string cta-text-1:
+string cta-text-2:
+string cta-text-3:
+string cta-text-4:
+string cta-text-5:
+string cta-text-6:
+string cta-text-1-url:
+string cta-text-2-url:
+string cta-text-3-url:
+string cta-text-4-url:
+string cta-text-5-url:
+string cta-text-6-url:
+ftd.image-src cta-icon:
+string cta-icon-url:
+
+-- ftd.row:
+width: fill-container
+background.solid: #f8d287
+
+-- ftd.row:
+height: fill-container
+background.solid: $inherited.colors.cta-primary.base
+padding.px: 24
+
+-- ftd.image: 
+src: $navbar.logo
+
+-- ftd.text: $navbar.title
+
+-- end: ftd.row
+
+-- ftd.row:
+padding.px: 24
+
+-- ftd.text: About
+
+-- ftd.text: About
+
+-- ftd.text: About
+
+-- end: ftd.row
+
+-- end: ftd.row
+
+-- end: navbar
