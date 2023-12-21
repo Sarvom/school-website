@@ -1,3 +1,8 @@
 -- import: sarvom.github.io/school-website/lib
 
--- ftd.text: Hello World
+-- lib.page:
+
+-- lib.navbar: Woodsmith Regional School
+logo: $assets.files.assets.logo.png
+
+-- end: lib.page
